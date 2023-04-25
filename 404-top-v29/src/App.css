@@ -1,0 +1,38 @@
+
+*{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@font-face {
+  font-family: sapace;
+  src: url(SpaceMono-Regular.ttf);
+}
+body {
+  margin: 50px;
+  max-width: 1440px;
+  height: auto;
+}
+
+.container{
+display: flex;
+margin-top: 100px;
+align-items: center;
+}
+
+.button {
+  background-color: #4f4f4f;
+  color: white;
+  padding: 15px;
+}
+
+.drCrane {
+  width: 500px;
+  height: 500px;
+  margin-right: 40px;
+}
+
+@media (max-width: 375px) {
+    .container{
+    display:inline-table;
+    }
+}
