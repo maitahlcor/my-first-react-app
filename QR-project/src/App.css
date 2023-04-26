@@ -1,0 +1,7 @@
+
+body {
+  background-color: hsl(220, 15%, 55%);
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
