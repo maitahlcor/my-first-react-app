@@ -1,18 +1,21 @@
-import QrCode from "./QRCode.jpeg";
+import "./index.css";
+import image from "./QRCode.jpeg";
 
-function Card() {
+function QrCode() {
   return (
-    <div className="card">
-      <img className="card__img" src={QrCode} alt="QR" />
-      <h2 className="card__description">
-        Inprove your front-end skills by building projects
-      </h2>
-      <p className="card__text">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
-    </div>
+    <>
+      <div>
+        <img src={image} alt="qr-code" />
+      </div>
+      <div className="container__card--text">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>
+          Scan the QR code to visit frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </>
   );
 }
 
-export default Card;
+export default QrCode;

@@ -1,11 +1,14 @@
 import "./App.css";
-
-import Qr from "../src/components/qr-card/Qr-card";
-
+import QrCode from "./components/qr-card/Qr-card";
+//C:\Users\maith\OneDrive\Documents\programacion\Top-V29\my-first-react-app\QR-project\src\components\qr-card
 function App() {
   return (
     <>
-      <Qr />
+      <div className="container">
+        <div className="container__card">
+          <QrCode />
+        </div>
+      </div>
     </>
   );
 }
